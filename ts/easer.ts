@@ -1,7 +1,6 @@
 /*
     http://github.com/mmmpa/Easer
 */
-
 class Easer {
     static pool: any = {};
 
