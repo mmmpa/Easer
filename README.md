@@ -12,5 +12,5 @@ Easer
 
 参考
 -
-http://d.hatena.ne.jp/nakamura001/20111117/1321539246
+http://d.hatena.ne.jp/nakamura001/20111117/1321539246  
 http://gizma.com/easing/
