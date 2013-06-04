@@ -2,6 +2,9 @@ Easer
 =====
 イージングするやつ。
 
+例
+-
+
     var ease = EaseName.EXPONENTIAL.make(EaseMode.IN_OUT, frames, 5);
 で 0 - 1 をイージングした配列が返る。
 
