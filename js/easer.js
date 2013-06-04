@@ -1,3 +1,6 @@
+/*
+    http://github.com/mmmpa/Easer
+*/
 var Easer = (function () {
     function Easer() { }
     Easer.pool = {
