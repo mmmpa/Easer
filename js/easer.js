@@ -29,9 +29,9 @@ var Easer = (function () {
     Easer.compute = function compute(start, end, ease) {
         var range = end - start;
         var computed = [];
-        ease.forEach(function (value) {
-            computed.push(start + range * value);
-        });
+        for(var i = 0, l = ease.length; i < l; i++) {
+            computed.push(start + range * ease[i]);
+        }
         return computed;
     };
     Easer.choiceFunc = function choiceFunc(mode, name) {

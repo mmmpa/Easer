@@ -24,9 +24,9 @@ class Easer {
     static compute(start: number, end: number, ease: number[]): number[] {
         var range: number = end - start;
         var computed: number[] = [];
-        ease.forEach((value: number) => {
-            computed.push(start + range * value);
-        })
+        for (var i = 0, l = ease.length; i < l; i++) {
+            computed.push(start + range * ease[i]);
+        }
         return computed;
     }
 
